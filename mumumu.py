@@ -15,7 +15,6 @@ s2_mean
 
 F = (n * delta2/(k-1))/((n*s2_mean)/(n-k))
 F
-s
 
 pv = stats.f.sf(F, dfn=k-1, dfd=n-k)
 pv
